@@ -65,4 +65,4 @@ async function deepSearchJSON(obj, key, func) {
   return recursiveFindCleanup(await recursiveFind(obj, key, func))
 }
 
-exports.deepSearchJSON = deepSearchJSON;
+module.exports = deepSearchJSON;
