@@ -1,0 +1,26 @@
+{
+  "name": "deep-search-json",
+  "version": "1.0.0",
+  "description": "js utility to find all instances of a key in an object and run a function on the parent object of each",
+  "main": "deep-search-JSON.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidmehani/deep-search-JSON.git"
+  },
+  "keywords": [
+    "object-search",
+    "json-search",
+    "object",
+    "json",
+    "search"
+  ],
+  "author": "davidmehani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidmehani/deep-search-JSON/issues"
+  },
+  "homepage": "https://github.com/davidmehani/deep-search-JSON#readme"
+}
