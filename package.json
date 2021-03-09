@@ -1,6 +1,6 @@
 {
   "name": "deep-search-json",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "js utility to find all instances of a key in an object and run a function on the parent object of each",
   "main": "deep-search-JSON.js",
   "scripts": {
