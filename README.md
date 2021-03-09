@@ -39,3 +39,6 @@ npm install deep-search-json
     *  }
     *
     */
+    
+# Note
+does not currently find keys nested into each other
