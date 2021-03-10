@@ -47,4 +47,4 @@ This does not natively support finding keys nested into each other eg:
             myKey: "hello world"
         }
     }
-will only find the outer level, however you can work around this through the function parameter by calling this search as part of your passed in function
+will only find the outer level
