@@ -41,4 +41,10 @@ npm install deep-search-json
     */
     
 # Note
-does not currently find keys nested into each other
+does not currently support finding keys nested into each other eg:
+    {
+        myKey: {
+            myKey: "hello world"
+        }
+    }
+will only find the outer level, however you can work around through the function parameter by calling this search as part of your passed in function
