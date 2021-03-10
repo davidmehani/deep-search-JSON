@@ -40,7 +40,7 @@ npm install deep-search-json
     *
     */
     
-# Note
+## Note
 does not currently support finding keys nested into each other eg:
     {
         myKey: {
