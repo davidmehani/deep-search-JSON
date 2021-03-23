@@ -1,5 +1,6 @@
 // deep object key search to find a key anywhere in an object and run a function on its parent (with support for async functions)
 async function recursiveFind(obj, key, func) {
+  if (!obj) return undefined;
   if (typeof obj === "undefined") return undefined;
 
   if (typeof obj !== "object") return undefined;
@@ -32,6 +33,7 @@ async function recursiveFind(obj, key, func) {
 
 // clean up "seen" flag
 function recursiveFindCleanup(obj) {
+  if (!obj) return undefined;
   if (typeof obj === "undefined") return undefined;
 
   if (typeof obj !== "object") return undefined;
